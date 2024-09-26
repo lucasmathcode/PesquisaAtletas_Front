@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olimpíadas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Página de Busca de Atletas</h1>
+    </header>
+
+    <main>
+      <section>
+        <input
+          type="text"
+          id="campo-pesquisa"
+          placeholder="Digite o nome do atleta ou esporte"
+        />
+        <button onclick="pesquisar()">Pesquisar</button>
+      </section>
+
+      <section id="resultados-pesquisa" class="resultados-pesquisa">
+        <!-- Resultados da pesquisa aparecerão aqui -->
+      </section>
+    </main>
+
+    <footer>
+      <p>Todos os direitos reservados - Contato: email@dominio.com</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
